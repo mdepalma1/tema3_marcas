@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viatges [
+<!ELEMENT viatges (viatge+)>
+<!ELEMENT viatge (cliente, data-inici, data-finalitzacio, origen-viatge, destins, preu-viatge)>
+<!ELEMENT cliente (nom, llinatges)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT llinatges (#PCDATA)>
+<!ELEMENT data-inici (#PCDATA)>
+<!ELEMENT data-finalitzacio (#PCDATA)>
+<!ELEMENT origen-viatge (#PCDATA)>
+<!ELEMENT destins (nom-ciutat, nom-hotel, nombre-nits)>
+<!ELEMENT nom-ciutat (#PCDATA)>
+<!ELEMENT nom-hotel (#PCDATA)>
+<!ELEMENT nombre-nits (#PCDATA)>
+<!ELEMENT preu-viatge (#PCDATA)>
+]>
+<viatges>
+  <viatge>
+    <cliente>
+      <nom>Maria</nom>
+      <llinatges>Lopez Vazquez</llinatges>
+    </cliente>
+    <data-inici>13/02/24</data-inici>
+    <data-finalitzacio>23/02/24</data-finalitzacio>
+    <origen-viatge>Barcelona</origen-viatge>
+    <destins> 
+      <nom-ciutat>París</nom-ciutat>
+      <nom-hotel>Hôtel Aiglon</nom-hotel>
+      <nombre-nits>2</nombre-nits>
+    </destins>
+    <preu-viatge>350</preu-viatge>
+  </viatge>
+  <viatge>
+    <cliente>
+      <nom>Miriam</nom>
+      <llinatges>de Palma Rodríguez</llinatges>
+    </cliente>
+    <data-inici>05/03/24</data-inici>
+    <data-finalitzacio>15/03/24</data-finalitzacio>
+    <origen-viatge>Barcelona</origen-viatge>
+     <destins> 
+      <nom-ciutat>Los Angeles</nom-ciutat>
+      <nom-hotel>Ace Hotel Downtown Los Angeles</nom-hotel>
+      <nombre-nits>5</nombre-nits>
+    </destins>
+    <preu-viatge>1700</preu-viatge>
+  </viatge>
+  <viatge>
+    <cliente>
+      <nom>Carlos</nom>
+      <llinatges>Fernandez Miguelañez</llinatges>
+    </cliente>
+    <data-inici>01/04/24</data-inici>
+    <data-finalitzacio>25/04/24</data-finalitzacio>
+    <origen-viatge>Madrid</origen-viatge>
+     <destins> 
+      <nom-ciutat>Berlin</nom-ciutat>
+      <nom-hotel>easyHotel Berlin Hackescher Markt</nom-hotel>
+      <nombre-nits>4</nombre-nits>
+    </destins>
+    <preu-viatge>650</preu-viatge>
+  </viatge>
+</viatges>

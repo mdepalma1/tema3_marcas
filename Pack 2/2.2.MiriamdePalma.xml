@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operacions [
+<!ELEMENT operacions (operacio+)>
+<!ELEMENT operacio (venta | compra)+>
+<!ELEMENT venta (titols-venuts+, total-venuts, lliurat?, import)>
+<!ELEMENT titols-venuts (#PCDATA)>
+<!ELEMENT total-venuts (#PCDATA)>
+<!ELEMENT lliurat (#PCDATA)>
+<!ELEMENT import (#PCDATA)>
+<!ELEMENT compra (titols-comprats+, proveidor, data-compra)>
+<!ELEMENT titols-comprats (#PCDATA)>
+<!ELEMENT proveidor (#PCDATA)>
+<!ELEMENT data-compra (dia, mes, any)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ATTLIST import moneda CDATA #REQUIRED>
+]>
+<operacions>
+  <operacio>
+    <venta>
+      <titols-venuts></titols-venuts>
+      <total-venuts></total-venuts>
+      <lliurat></lliurat>
+      <import moneda="euros"></import>
+      
+    </venta>
+    <compra>
+      <titols-comprats></titols-comprats>
+      <proveidor></proveidor>
+      <data-compra>
+        <dia></dia>
+        <mes></mes>
+        <any></any>
+      </data-compra>
+    </compra>
+  </operacio>
+</operacions>

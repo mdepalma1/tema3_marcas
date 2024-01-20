@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comanda SYSTEM "2.3.miriamdepalma.dtd">
+
+<comanda>
+  <tractor>
+    <components>
+      <nom-fabricant nom-del-fabricant=" "></nom-fabricant>
+      <data-entrega>
+        <dia></dia>
+        <mes mes-entrega=" "></mes>
+        <any any-entrega=" "></any>
+      </data-entrega>
+      <fragilidad fragil= " "></fragilidad>
+      <pes-unitat unitat="quilos"></pes-unitat>
+      <nombre-de-serie></nombre-de-serie>
+      <kmmaxims></kmmaxims>
+    </components>
+  </tractor>
+</comanda>
