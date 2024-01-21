@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entrega SYSTEM "3.3.miriamdepalma.dtd">
+<entrega>
+    <lot>
+        <palet>
+            <nombre-caixes></nombre-caixes>
+            <contingut>
+                <nom-component></nom-component>
+                <procedencia></procedencia>
+                <num-serie></num-serie>
+                <pes-component></pes-component>
+                <unitat-de-pes></unitat-de-pes>
+            </contingut>
+            <pes></pes>
+            <forma-manipulacio></forma-manipulacio>
+        </palet>
+    </lot>
+</entrega>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llistavendes SYSTEM "3.1.miriamdepalma.dtd">
+<llistavendes>
+    <venda>
+        <import></import>
+        <comprador></comprador>
+        <venedor></venedor>
+        <data data-venda=" "></data>
+        <codi-factura></codi-factura>
+    </venda>
+</llistavendes>
