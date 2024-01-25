@@ -3,7 +3,7 @@
 <llistat>
     <futurs preu=" ">
         <mercat>
-            <procedencia></procedencia>
+            <procedencia ciudad="Madrid"></procedencia>
         </mercat>
     </futurs>
     <divises preu=" " estable=" "></divises>

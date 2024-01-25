@@ -4,10 +4,12 @@
 <!ELEMENT procedencia (#PCDATA)>
 <!ELEMENT divises (#PCDATA)>
 <!ELEMENT bons (pais_procedencia)>
-<!ELEMENT pais_procedencia (EMPTY)>
+<!ELEMENT pais_procedencia EMPTY>
 <!ELEMENT lletres (#PCDATA)>
 <!ATTLIST futurs preu CDATA #REQUIRED>
-<!ATTLIST futurs estable CDATA #IMPLIED>
+<!ATTLIST divises preu CDATA #REQUIRED>
+<!ATTLIST divises estable CDATA #IMPLIED>
 <!ATTLIST bons preu CDATA #REQUIRED>
 <!ATTLIST bons estable CDATA #IMPLIED>
 <!ATTLIST lletres preu CDATA #REQUIRED>
+<!ATTLIST procedencia ciudad (Madrid|NY|Frankfurt|Toquio) #REQUIRED>
