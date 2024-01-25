@@ -1,6 +1,6 @@
 <!ELEMENT operaciones (operacion+)>
 <!ELEMENT operacion (venta | compra)+>
-<!ELEMENT venta (titulosvendidos)>
+<!ELEMENT venta (titulosvendidos+)>
 <!ELEMENT titulosvendidos (titulo+, cantidadtotal,entregado?, importe)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT cantidadtotal (#PCDATA)>

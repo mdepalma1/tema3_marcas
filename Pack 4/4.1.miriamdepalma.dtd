@@ -1,0 +1,10 @@
+<!ELEMENT fitxers (llistafactures+)>
+<!ELEMENT llistafactures (factura+)>
+<!ELEMENT factura (emisor, pagador, import)>
+<!ELEMENT emisor (nom, volum-vendes?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT volum-vendes (#PCDATA)>
+<!ELEMENT pagador (nom, volum-vendes?)>
+<!ELEMENT import (#PCDATA)>
+<!ATTLIST factura data CDATA #IMPLIED>
+<!ATTLIST emisor cif CDATA #REQUIRED>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fitxers SYSTEM "4.1.miriamdepalma.dtd">
+<fitxers>
+  <llistafactures>
+    <factura data=" ">
+      <emisor cif=" ">
+        <nom></nom>
+        <volum-vendes></volum-vendes>
+      </emisor>
+      <pagador>
+        <nom></nom>
+        <volum-vendes></volum-vendes>
+      </pagador>
+      <import></import>
+    </factura>
+  </llistafactures>
+</fitxers>

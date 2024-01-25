@@ -1,0 +1,23 @@
+<?xlm version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llistacursos SYSTEM "4.2.miriamdepalma.dtd">
+<llistacursos>
+  <cursos>
+    <alumne>
+      <dni></dni>
+      <nom></nom>
+      <cognom></cognom>
+      <segon-cognom></segon-cognom>
+      <llista-assignatures>
+        <assignatura codi=" ">
+          <nom></nom>
+          <professor>
+            <NRP></NRP>
+            <nom></nom>
+            <cognom></cognom>
+            <segon-cognom></segon-cognom>
+          </professor>
+        </assignatura>
+      </llista-assignatures>
+    </alumne>
+  </cursos>
+</llistacursos>

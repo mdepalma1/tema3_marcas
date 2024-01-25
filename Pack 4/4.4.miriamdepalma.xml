@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llistat SYSTEM "4.4.miriamdepalma.dtd">
+<llistat>
+    <futurs preu=" ">
+        <mercat>
+            <procedencia></procedencia>
+        </mercat>
+    </futurs>
+    <divises preu=" " estable=" "></divises>
+    <bons preu=" " estable=" ">
+        <pais_procedencia></pais_procedencia>
+    </bons>
+    <lletres preu=" "></lletres>
+</llistat>

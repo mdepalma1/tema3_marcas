@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE demanat SYSTEM "4.3.miriamdepalma.dtd">
+<demanat>
+    <llibres titol=" "></llibres>
+    <quadern num_fulles=" ">10</quadern>
+    <llapis>
+        <numero></numero>
+    </llapis>
+</demanat>
