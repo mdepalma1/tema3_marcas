@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fitxes"/>
+  <xs:element name="fitxa">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="edat" type="xs:integer"/>
+    </xs:sequence>
+    <xs:attribute name="num" type="xs:integer"/>
+  </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="EdatClient">
+    <xs:restriction base="xs:integer">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="130"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

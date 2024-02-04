@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fitxes
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="5.6.miriamdepalma.xsd">
+    <fitxa>
+        <nom>Antonio Machado Ruiz</nom>
+        <inicials>AMR</inicials>
+        <edat>22</edat>
+    </fitxa>
+    <fitxa>
+        <nom>Mario Moreno Martinez</nom>
+        <inicials>MMM</inicials>
+        <edat>23</edat>
+    </fitxa>
+    <fitxa>
+        <nom>Ada Lovelace</nom>
+        <inicials>ALO</inicials>
+        <edat>24</edat>
+    </fitxa>
+    <fitxa>
+        <nom>pablo ruiz picasso</nom>
+        <inicials>PRP</inicials>
+        <edat>24</edat>
+    </fitxa>
+</fitxes>

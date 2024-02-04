@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fitxes
+  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+  xs:noNamespaceSchemaLocation="5.3.miriamdepalma.xsd">
+  <fitxa num="1">
+    <nom>Ana Sanz Tin</nom>
+    <edat>22</edat>
+  </fitxa>
+  <fitxa num="2">
+    <nom>Iker Rubio Mol</nom>
+    <edat>23</edat>
+  </fitxa>
+</fitxes>

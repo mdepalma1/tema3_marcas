@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="preus"/>
+  <xs:element name="preu"/>
+  <xs:simpleType name="Digitsnum">
+    <xs:restriction base="xs:decimal">
+    <xs:totalDigits value="3"/>
+    <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

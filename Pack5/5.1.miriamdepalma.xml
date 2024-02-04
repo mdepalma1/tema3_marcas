@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercici
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="5.1.miriamdepalma.xsd">
+<ciutat>Roma</ciutat>
+<data-de-naixement>1996-12-18</data-de-naixement>
+<hora>18.29:45</hora>
+<nota>7.5</nota>
+<apte>*true</apte>
+</exercici>
